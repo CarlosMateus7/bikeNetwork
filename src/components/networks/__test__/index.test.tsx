@@ -3,7 +3,7 @@ import { Networks } from '../index';
 import { Network } from '../../../types';
 
 describe('Networks component', () => {
-  const network:Network = {
+  const network: Network = {
     company: ['EMEL'],
     href: "site",
     location: {

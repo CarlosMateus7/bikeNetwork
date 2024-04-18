@@ -45,7 +45,7 @@ export const Networks =({network, numberOfNetworksPerCountry}:LayersProps)=>{
                     <p className="item"><strong>City: </strong>{network.location.city}</p>
                     <p className="item"><strong>Company: </strong></p>
                     <p className="item">
-                        {network.company.map((company:any, index:number) => (
+                        {network.company.map((company:string, index:number) => (
                             <li key={index}>{company}</li>
                         ))}
                     </p>                                     

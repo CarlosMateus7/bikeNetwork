@@ -3,7 +3,7 @@ import { Network, Station } from "../types";
 export const fetchNetworks= async (): Promise<Network[] | []> =>{
     try {
         const response = await fetch(
-            "http://api.citybik.es/v2/networks"
+            "https://api.citybik.es/v2/networks"
         );
         const data = await response.json();
         return data.networks;
@@ -16,7 +16,7 @@ export const fetchNetworks= async (): Promise<Network[] | []> =>{
 export const fetchNetworkById = async (networkId: string): Promise<Station[]> => {
     try {
         const response = await fetch(
-            `http://api.citybik.es/v2/networks/${networkId}?fields=stations`
+            `https://api.citybik.es/v2/networks/${networkId}?fields=stations`
         );
         const data = await response.json();
         return data.network.stations;

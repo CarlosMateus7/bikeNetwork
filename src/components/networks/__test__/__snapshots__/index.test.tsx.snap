@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Networks component should make a Snapshot of the Networks component 1`] = `
+<DocumentFragment>
+  <div>
+    <h3>
+      Network: Gira
+    </h3>
+    <nav
+      class="nav-layer"
+    >
+      <ul
+        class="ul-layer"
+      >
+        <li
+          class="li-layer active"
+        >
+          L1
+        </li>
+        <li
+          class="li-layer "
+        >
+          L2
+        </li>
+        <li
+          class="li-layer "
+        >
+          L3
+        </li>
+      </ul>
+    </nav>
+    <div>
+      <div>
+        <div>
+          <p
+            class="li-layer"
+          >
+            <strong>
+              Number of Networks (PT): 
+            </strong>
+            5
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

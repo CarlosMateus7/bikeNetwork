@@ -1,4 +1,3 @@
-import React from 'react';
 import { useStation } from '../../hooks/useStations';
 import {
   Marker,

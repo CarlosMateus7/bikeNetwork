@@ -15,7 +15,7 @@ https://github.com/CarlosMateus7/bike_network
 
 
 ## About the project
-This project comes from the scope of a challenge proposed by the company Procimo. 
+The scope of this project comes from a challenge that uses the api of citybik and provide the information in a Map using Leaflet library. 
 
 ## Requirements
 

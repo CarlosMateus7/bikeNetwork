@@ -11,15 +11,11 @@ export const useStation = (id:string): useStationProps =>{
  
     useEffect(() => {
         const fetchFilterNetworkById = async () => {
-            try {
-                const data = await fetchNetworkById(id);
-                setStation(data);
-            } catch (err) {
-                throw(err);
-            }      
+          const data = await fetchNetworkById(id);
+          setStation(data);
         };
-        fetchFilterNetworkById();      
-    }, [id]);
+        fetchFilterNetworkById();
+      }, [id]);
 
     return{
         data: {station},
